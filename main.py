@@ -72,7 +72,7 @@ def find_password():
             messagebox.showinfo(title=website,
                                 message=f"email: {data[website]['email']} \n password: {data[website]['password']}")
         else:
-            messagebox.showinfo(title="Error", message="No Data File Found.")
+            messagebox.showinfo(title="Error", message=f"No details for {website} exists.")
 
 
 # ---------------------------- UI SETUP ------------------------------- #
