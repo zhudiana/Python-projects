@@ -5,8 +5,8 @@ import random
 import datetime as dt
 import pandas
 
-MY_EMAIL = "yoditfentaw90@gmail.com"
-PASSWORD = "dostzepzafqmkbkn"
+MY_EMAIL = "youremail"
+PASSWORD = "yourpassowrd"
 
 today = dt.datetime.now()
 today_tuple = (today.month, today.day)
