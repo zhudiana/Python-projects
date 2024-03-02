@@ -27,3 +27,4 @@ class DataManager:
                 json=new_data
             )
             print(response.text)
+
