@@ -3,8 +3,8 @@ from spotipy.oauth2 import SpotifyOAuth
 from bs4 import BeautifulSoup
 import requests
 
-CLIENT_ID = "24f8c7a0ab654560ba095bdfafb53ad9"
-CLIENT_SECRET = "9f9146d53033434387c9a3c5ea794857"
+CLIENT_ID = "--"
+CLIENT_SECRET = "--"
 URL = "https://www.billboard.com/charts/hot-100/"
 
 #Scraping Billboard 100
