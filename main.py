@@ -19,14 +19,8 @@ all_links = soup.select(".StyledPropertyCardDataWrapper a")
 all_address = soup.select(".StyledPropertyCardDataWrapper address")
 
 all_prices = [price.get_text().replace("/mo", "").split("+")[0] for price in all_prices if "$" in price.text]
-print(all_prices)
-
 all_links = [link["href"] for link in all_links]
-print(all_links)
-
 all_addresses = [address.get_text().replace(" | ", " ").strip() for address in all_address]
-print(all_addresses)
-
 
 #Selenium
 service = Service(executable_path="chromedriver.exe")
